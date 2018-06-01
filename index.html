@@ -1,20 +1,106 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>My Profile</title>
         <meta name="description" content="">
         <meta name="keywords"  content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/main_minified.css">
+        <link rel="stylesheet" href="css/960_12_col.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     </head>
     <body>
-        
+        <!-- Header and navigation -->
+        <header class="container_12">
+            <div class="grid_6">
+                <h1><span style="color: #72AB00">Deepak</span> Balyan</h1>
+                <p style="color:#72AB00">Full Stack Developer</p>
+            </div>
+            <nav class="grid_6">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#proj">PROJECTS</a></li>
+                    <li><a href="#">CV</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Main section with profile pic and details-->
+        <main class="container_12">
+            <figure class="grid_3">
+                <img src="img/dpk.jpg" alt="Deepak Balyan" class="my_image">
+            </figure>
+            <section class="grid_5">
+                <h1>Hello!</h1>
+                <p>
+                    Hi, This is Deepak Balyan. I am a software developer. I like to code.
+                </p>
+                <p>
+                    I am a B.Tech IT graduate from VIT University, Vellore.
+                </p>
+                <p>
+                    I like to play cricket and volleyball.
+                </p>
+                <p>
+                    I am from Rohtak, Haryana.
+                </p>
+            </section>
+            <section class="grid_4">
+                <table>
+                    <tr>
+                        <h2>Available:</h2>
+                        <p>shlwsxnl</p>
+                    </tr>
+                    <tr>
+                        <h2>Available:</h2>
+                        <p>shlwsxnl</p>
+                    </tr>
+                    <tr>
+                        <h2>Available:</h2>
+                        <p>shlwsxnl</p>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <!--Hero image for projects-->
+        <div class="hero_img_div">
+            <h1>
+                <a href="#proj">
+                    ---Projects---
+                </a>
+            </h1>
+        </div>
+        <!--Project Section-->
+        <div class="container_12 projects" id="proj">
+           <section class="grid_6">
+               <img src="img/hw.png" alt="hiwicket_logo" class="p_image">
+               <h1>Hitwicket</h1>
+               <p>
+                   Hitwicket, a Hyderabad startup, has tapped into this fervent devotion by coming up with an online, strategy-based cricket simulation game.
+               </p>
+           </section>
+           <section class="grid_6">
+               <img src="img/boeing_logo.png" alt="boeing_logo" class="p_image">
+               <h1>Boeing</h1>
+               <p>
+                   The Boeing Company is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, and satellites worldwide. The company also provides leasing and product support services.
+               </p>
+           </section> 
+        </div>
+        <!--Footer with social profile links-->
+        <footer class="container_12">
+              <figure class="grid_4">
+                  <img src="img/fb.png" alt="facebook" class="s_image">
+                  <figcaption>facebook.com/deepakbalyan</figcaption>
+              </figure>
+              <figure class="grid_4">
+                  <img src="img/in.png" alt="linkedin" class="s_image">
+                  <figcaption>linkedin.com/deepakbalyan</figcaption>
+              </figure>
+              <figure class="grid_4">
+                  <img src="img/twitter.png" alt="twitter" class="s_image">
+                  <figcaption>twitter.com/deepakbalyan</figcaption>
+              </figure>
+          </footer>
     </body>
 </html>
