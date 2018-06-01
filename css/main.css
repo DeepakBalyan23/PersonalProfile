@@ -7,8 +7,7 @@ body{
 header{
     background-image: url("../img/bg.jpg");
     position: fixed;
-    left: 162px;
-    top: 0px;
+   
 }
 nav{
     height:110px;
