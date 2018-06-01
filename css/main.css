@@ -7,7 +7,8 @@ body{
 header{
     background-image: url("../img/bg.jpg");
     position: fixed;
-   
+    top: 0;
+    left: 162px;
 }
 nav{
     height:110px;
@@ -81,4 +82,7 @@ figure figcaption{
 .p_image{
     width: 400px;
     height: 200px;
+}
+span{
+    color: #72AB00;
 }
